@@ -11,8 +11,10 @@
         android:theme="@style/AppTheme">
         <activity android:name=".visor_activity"></activity>
         <activity android:name=".galeria_activity" />
-        <activity android:name=".bienvenida_activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".bienvenida_activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
