@@ -21,4 +21,8 @@ class bienvenida_activity : AppCompatActivity() {
         val intent = Intent(this,naturaleza_activity::class.java);
         startActivity(intent);
     }
+    fun onclick_comida (view: View){
+        val intent = Intent(this,comida_activity::class.java);
+        startActivity(intent);
+    }
 }

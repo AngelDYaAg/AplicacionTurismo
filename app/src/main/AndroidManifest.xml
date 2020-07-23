@@ -9,10 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".elementos_activity"></activity>
+        <activity android:name=".papa_china_activity"></activity>
+        <activity android:name=".dulce_oca_activity" />
+        <activity android:name=".papa_activity" />
+        <activity android:name=".chicha_activity" />
+        <activity android:name=".maiz_activity" />
+        <activity android:name=".chiguiles_activity" />
+        <activity android:name=".sanco_activity" />
+        <activity android:name=".valor_nutricional_activity" />
+        <activity android:name=".ingredientes_activity" />
+        <activity android:name=".fritada_de_llama" />
+        <activity android:name=".proteina_activity" />
+        <activity android:name=".elementos_activity" />
         <activity android:name=".flora_activity" />
         <activity android:name=".naturaleza_activity" />
         <activity android:name=".visor_activity" />
+        <activity android:name=".comida_activity" />
         <activity android:name=".galeria_activity" />
         <activity
             android:name=".bienvenida_activity"
@@ -26,6 +38,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
