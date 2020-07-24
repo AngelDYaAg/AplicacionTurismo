@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".papa_china_activity"></activity>
+        <activity android:name=".servicios_activity"></activity>
+        <activity android:name=".hotel_inicio_activity" />
+        <activity android:name=".hosteria_activity" />
+        <activity android:name=".papa_china_activity" />
         <activity android:name=".dulce_oca_activity" />
         <activity android:name=".papa_activity" />
         <activity android:name=".chicha_activity" />
