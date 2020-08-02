@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".historia_activity"></activity>
+        <activity android:name=".menu_naturaleza_activity"></activity>
+        <activity android:name=".historia_activity" />
         <activity android:name=".servicios_activity" />
         <activity android:name=".hotel_inicio_activity" />
         <activity android:name=".hosteria_activity" />
