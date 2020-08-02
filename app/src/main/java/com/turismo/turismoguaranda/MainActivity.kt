@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onclick_bienvenida (view: View){
-        val intent = Intent(this,bienvenida_activity::class.java);
+        val intent = Intent(this,historia_activity::class.java);
         startActivity(intent);
     }
 }
