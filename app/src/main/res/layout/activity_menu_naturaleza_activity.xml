@@ -4,6 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
     tools:context=".menu_naturaleza_activity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pantalla_principal_01" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/pantalla_principal_02"
+        android:onClick="onclick_flora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/pantalla_principal_03"
+        android:onClick="onclick_fauna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:text="minerales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
 </androidx.constraintlayout.widget.ConstraintLayout>
