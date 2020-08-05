@@ -31,4 +31,9 @@ class bienvenida_activity : AppCompatActivity() {
         val intent = Intent(this,hosteria_activity::class.java);
         startActivity(intent);
     }
+
+    fun onclick_ubicacion (view: View){
+        val intent = Intent(this,MapsActivity::class.java);
+        startActivity(intent);
+    }
 }

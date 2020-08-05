@@ -90,4 +90,5 @@
     <string name="detalle_comida">Asentadas en Guaranda basaban su\ngastronomía en tres alientos fundamentales\n
         siendo recetas heredadas de antepasados\n Incas y de las cuales nacieron platillos que\n actualmente están en
         peligro de desaparecer</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -72,6 +72,7 @@
                 android:layout_width="355dp"
                 android:layout_height="74dp"
                 android:background="@drawable/boton_ubicacion_8"
+                android:onClick="onclick_ubicacion"
                 app:layout_constraintEnd_toEndOf="@+id/button22"
                 app:layout_constraintStart_toStartOf="@+id/button21"
                 app:layout_constraintTop_toBottomOf="@+id/button21" />
