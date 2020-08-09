@@ -1,16 +1,22 @@
 package com.turismo.turismoguaranda
 
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.core.app.ActivityCompat
 
 class bienvenida_activity : AppCompatActivity() {
+
+    private var ACCESS_FINE_PERMISSION = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bienvenida_activity)
+        if (ActivityCompat.checkSelfPermission(this,android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED)
+            ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION),ACCESS_FINE_PERMISSION)
     }
 
     fun onclick_galeria (view: View){
@@ -42,5 +48,10 @@ class bienvenida_activity : AppCompatActivity() {
         }
         //val intent = Intent(this,MapsActivity::class.java);
         //startActivity(intent);
+    }
+
+    fun onclick_scannerQR (view: View){
+        val intent = Intent(this,scanner_activity::class.java);
+        startActivity(intent);
     }
 }

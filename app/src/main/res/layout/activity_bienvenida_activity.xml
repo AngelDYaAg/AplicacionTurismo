@@ -64,6 +64,7 @@
                 android:layout_width="175dp"
                 android:layout_height="106dp"
                 android:background="@drawable/boton_qr_7"
+                android:onClick="onclick_scannerQR"
                 app:layout_constraintEnd_toEndOf="@+id/button20"
                 app:layout_constraintTop_toBottomOf="@+id/button20" />
 
