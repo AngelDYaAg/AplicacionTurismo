@@ -91,4 +91,36 @@
         siendo recetas heredadas de antepasados\n Incas y de las cuales nacieron platillos que\n actualmente están en
         peligro de desaparecer</string>
     <string name="title_activity_maps">Map</string>
+    <string name="raton_de_paramo"><b>Neomicroxus latebricola\n</b> Endémico de Ecuador, es un animal solitario. En la antigüedad se creía que
+        transportaba las almas de los humanos que habían pasado de la vida física a la espiritual, era la conexión entre la tierra y el
+        inframundo.</string>
+    <string name="serpiente"><b>Macroprotodon cucullatus\n</b> Realiza sus actividades de caza en el día o en la noche. Era relacionada
+        con el mundo de las sombras ya que desaparecía en el frío y aparecía en el calor. Para los Incas representaba lo infinito; cuando un
+        humano abandonaba la vida terrenal se unía a la espiritual en forma de serpiente.</string>
+    <string name="lagartija"><b>Lacertilia\n</b> Representa la renovación y el renacimiento ya que si llega a perder su cola, la puede
+        regenerar. Este animal era secado y guardado en grandes depósitos y se destinaba como tributo al Inca.</string>
+    <string name="zorrillo"><b>Mephitidae\n</b> Antiguamente se creía que si al encontrarse con este animal la persona puede poseer
+        coraje y la fuerza de voluntad para levantarse ante injusticias y hacer lo correcto en algo que está mal. Su principal rasgo
+        característico es el fuerte y fétido olor que segregan sus glándulas anales. Este olor es emitido cuando la mofeta se siente
+        amenazada. Viven en madrigueras que son cavadas por las hembras y durante el invierno, pasan un período de letargo, el cual
+        no llega a ser una hibernación completa.A veces comparten madrigueras cavadas por otras especies como zorros y mapaches.</string>
+    <string name="vicuna"><b>Vicugna\n</b> Los textiles de vicuña se reservaban para la realeza inca. Tiene la fibra animal más fina del
+        mundo, y por tanto, la más cara del mercado. Para hacerse una idea de la delicadeza del producto, basta citar que el grosor de un
+        cabello humano equivale a seis de sus pelos. Conocidas como las damitas del Chimborazo ya que solo pisan con la parte delantera
+        de sus patitas.</string>
+    <string name="chucuri"><b>Mustela frenata\n</b> Estos animales tienen un vínculo simbólico con el inframundo. Su agudo sentido del olfato
+        y su capacidad de ver en la oscuridad es lo que los vincula a los secretos de la oscuridad y la creación.</string>
+    <string name="cusumbo"><b>Potos flavus\n</b> son animales muy inteligentes. Están estrechamente conectados con el reino vegetal. invocado
+        como guìa espiritual  en momentos de fertilidad, para ser gentil, tener fe en lugares desconocidos y conertarse al reino vegetal.</string>
+    <string name="guanta"><b>Cuniculus paca\n</b> Animal casi extinto. Su carne tenía beneficios que atribuyen a la curación de enfermedades
+        catastróficas por lo que se ha convertido en un animal amenazado por la caza indiscriminada, consumían por que su carne no contiene
+        tanta grasa y su alimentación se basaba en frutas.</string>
+    <string name="mirlo"><b>Turdus Merula\n</b> Los chamanes creen que cuando aparece un mirlo esta urgiéndonos a seguir un camino espiritual
+        o a volvernos más conscientes.</string>
+    <string name="gallo_de_la_pena"><b>Rupicola peruvianus\n</b> Anidan en empinadas peñas, usualmente sobre ríos, escondiendo lo más posible,
+        entre huecos, rocas y cuevas, sus nidos de lodo y saliva.</string>
+    <string name="curiquingues"><b>Phalcoboenus carunculatus\n</b> ave mítica que auguraba la buena cosecha, al ir por los aires, se comunicaban
+        con los astros y los dioses. “Eran las mensajeras sagradas entre la tierra y el cielo. Eran símbolo de pureza espiritual, dignidad
+        y poder”</string>
+    <string name="gavilan"><b>Accipiter nisus\n</b> Atributo de los dioses solares, simboliza los cielos, el poder, la realeza y la sabiduría.</string>
 </resources>
