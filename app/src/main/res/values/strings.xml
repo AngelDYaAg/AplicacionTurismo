@@ -287,19 +287,30 @@ Salinas y Simiatug, este de Facundo Vela.
         donde los niños van a poder jugar y pasar muy bien.a demás encontramos un hermoso lago y una hermosa piscina en donde las personas van a poder
         nadar
     </string>
-    <string name="santuario">
-        pendiente
-    </string>
     <string name="parque_central">
         En la época Colonial esta plaza fue el centro del comercio de la ciudad, luego de varios años se planifica la construcción del parque y es así
         que con la administración del alcalde Alfonso Durango se manda a construir la estatua de Simon Bolivar al gran maestro escultor Oswaldo
         Guayasamín
     </string>
     <string name="municipio">
-        pendiente
+        De acuerdo a la municipalidad Guaranda es una ciudad pintoresca, multicolor, ubicada en la Cordillera Occidental de los Andes. Con una vista
+        espectacular del volcán Chimborazo. Cuenta con un clima muy agradable que oscila entre los 15 y 21 grados centígrados.\n\nGuaranda tiene una
+        infraestructura única y llamativa, sus edificaciones llegan máximo a tres pisos, sus calles angostas son adoquinadas. Es una ciudad apacible,
+        tranquila, sosegada, llena de calma, con gente muy amable y acogedora. Tiene el encanto de las ciudades idóneas para un buen descanso, en donde
+        la cercanía y la camaradería es un plus que le da un encanto particular.
     </string>
     <string name="colinas_7">
-        pendiente
+        <b>San Jacinto</b>\nEn honor al patrón de los viajeros. Los comerciantes brindaban una contribución monetaria cada vez que pasaban por este camino.
+        Desde su cima se puede observar las fiestas, comida, coplas y trajes típicos del famoso carnaval.\n\n<b>Loma de Guaranda</b>\nEn honor a la ciudad
+        de Guaranda. Es la colina principal, en la cima se encuentran instaladas antenas de transmisión telefónica y de televisión.\n\n<b>San Bartolo</b>\nEn
+        honor al santo San Bartolomé, quien fue apóstol de Jesús.Una de las colinas más grandes donde la cima es usada como un mirador natural. Se puede
+        observar plantas como el sacha, romerillo, capulí, entre otros; y algunos mirlos, colibríes y pájaros.\n\n<b>Cruz Loma</b>\nExistía una cruz de madera
+        que fue destruida por un rayo. En esta colina se celebraba el miércoles de ceniza después del Carnaval de Guaranda. Aquí se encuentra el Museo y la
+        estatua “Indio Guaranga”.\n\n<b>Tililag</b>\nUn indígena hacía sonar una coraza cuando se acercaban enemigos, de ahí el sonido “Tilig”. Conocida
+        actualmente como el Peñón; llegar a la cima es difícil ya que el sendero se encuentra destruido.\n\n<b>Talalag</b>\nEra usada para la extracción
+        de piedra por esta razón se destruyó gran parte de la colina. Se encuentran plantas de romerillo, mático, chilca; árboles de eucalipto y
+        capulí.\n\n<b>El Calvario</b>\nHace referencia al Monte Calvario donde murió Jesús.Desde aquí salía la procesión del domingo de ramos que
+        terminaba en la iglesia principal de la ciudad. Debido a la construcción de diferentes edificaciones ya no es posible divisar claramente la colina.
     </string>
 
 </resources>

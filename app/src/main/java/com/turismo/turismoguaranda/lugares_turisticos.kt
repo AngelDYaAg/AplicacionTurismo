@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -15,6 +16,7 @@ class lugares_turisticos : AppCompatActivity() {
         val opcion: Int = intent.getIntExtra("option",1)
         val imageViewLugar: ImageView = findViewById(R.id.imageView14)
         val textViewLugar: TextView = findViewById(R.id.textView3)
+        textViewLugar.setMovementMethod(ScrollingMovementMethod())
         if (opcion==1){
             imageViewLugar.setImageResource(R.drawable.siete_colinas_1)
             textViewLugar.text = getText(R.string.colinas_7)
@@ -40,10 +42,6 @@ class lugares_turisticos : AppCompatActivity() {
             textViewLugar.text = getText(R.string.municipio)
         }
         if (opcion==7){
-            imageViewLugar.setImageResource(R.drawable.santuario_7)
-            textViewLugar.text = getText(R.string.santuario)
-        }
-        if (opcion==8){
             imageViewLugar.setImageResource(R.drawable.plaza_carnaval_8)
             textViewLugar.text = getText(R.string.plaza_del_carnaval)
         }
