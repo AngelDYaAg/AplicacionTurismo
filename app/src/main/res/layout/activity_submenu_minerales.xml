@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".submenu_minerales">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="411dp"
+                android:layout_height="733dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/pantalla_minerales" />
+
+            <Button
+                android:id="@+id/button_cuarzo4"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mineral_malaquita"
+                android:onClick="onclick_malaquita"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo" />
+
+            <Button
+                android:id="@+id/button_cuarzo12"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:background="@drawable/mineral_labradorita"
+                android:onClick="onclick_labradorita"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo10" />
+
+            <Button
+                android:id="@+id/button_cuarzo10"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/mineral_lapislazuli"
+                android:onClick="onclick_lapislazuli"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo5" />
+
+            <Button
+                android:id="@+id/button_cuarzo11"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="56dp"
+                android:background="@drawable/mineral_jaspe_rojo"
+                android:onClick="onclick_ajaspe_rojo"
+                app:layout_constraintEnd_toStartOf="@+id/button_cuarzo12"
+                app:layout_constraintHorizontal_bias="0.966"
+                app:layout_constraintStart_toEndOf="@+id/button_cuarzo8"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo9" />
+
+            <Button
+                android:id="@+id/button_cuarzo9"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mineral_turmalina"
+                android:onClick="onclick_turmalina_negra"
+                app:layout_constraintEnd_toStartOf="@+id/button_cuarzo10"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toEndOf="@+id/button_cuarzo7"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo6" />
+
+            <Button
+                android:id="@+id/button_cuarzo5"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/mineral_cuarzo_rosado"
+                android:onClick="onclick_curazo_rosado"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo3" />
+
+            <Button
+                android:id="@+id/button_cuarzo7"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mineral_rodocrosita"
+                android:onClick="onclick_rodcrosita"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo4" />
+
+            <Button
+                android:id="@+id/button_cuarzo6"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mineral_cuarzo_ahumado"
+                android:onClick="onclick_cuarzo_ahumado"
+                app:layout_constraintEnd_toStartOf="@+id/button_cuarzo5"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toEndOf="@+id/button_cuarzo4"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo2" />
+
+            <Button
+                android:id="@+id/button_cuarzo2"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="248dp"
+                android:background="@drawable/mineral_amatista"
+                android:onClick="onclick_amatista"
+                app:layout_constraintEnd_toStartOf="@+id/button_cuarzo3"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toEndOf="@+id/button_cuarzo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_cuarzo3"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="248dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/mineral_citrino"
+                android:onClick="onclick_citrino"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_cuarzo"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="248dp"
+                android:background="@drawable/mineral_cuarzo_cristal"
+                android:onClick="onclick_cuarzo_cristal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button_cuarzo8"
+                android:layout_width="60dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mineral_amazonita"
+                android:onClick="onclick_amazonita"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_cuarzo7" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

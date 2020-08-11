@@ -22,7 +22,7 @@ class menu_naturaleza_activity : AppCompatActivity() {
     }
 
     fun onclick_minerales (view: View){
-        val intent = Intent(this,flora_activity::class.java)
+        val intent = Intent(this,submenu_minerales::class.java)
         startActivity(intent)
     }
 }

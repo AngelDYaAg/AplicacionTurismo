@@ -21,7 +21,7 @@
         android:id="@+id/button24"
         android:layout_width="155dp"
         android:layout_height="155dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="196dp"
         android:background="@drawable/pantalla_principal_02"
         android:onClick="onclick_flora"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,8 @@
         android:id="@+id/button26"
         android:layout_width="155dp"
         android:layout_height="155dp"
-        android:text="minerales"
+        android:background="@drawable/opciones_naturaleza"
+        android:onClick="onclick_minerales"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button25" />

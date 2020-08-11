@@ -48,33 +48,37 @@
         agua\n<b>Beneficios:</b> usada en infusión para combatir infecciones del aparato respiratorio. Principales virtudes son
         la diurética, laxante y cardiotónica.\nLa infusión de 25 gramos de sus flores es utilizada para las enfermedades del
         corazón, reumatismo, gota y ciática, también para lavar las afecciones en la piel y el herpes.</string>
-    <string name="aire_titulo">Aire</string>
-    <string name="aire">Generador de vida\nAsociamos el elemento Aire con los inicios y los comienzos, con la infancia o niñez.\nTodo lo que se
+
+    <string name="aire">Asociamos el elemento Aire con los inicios y los comienzos, con la infancia o niñez.\nTodo lo que se
         relaciona con estas características o esté envuelto por el aire se relacionará con éste. Así las plantas aromáticas,
         el incienso, las hierbas de cocina y la música son manifestaciones hechas a través de él.\nEl Aire es comunicación con
         el aquí y con el más allá. Los mensajeros siempre se han relacionado con él. Mercurio en la mitología griega era el
         mensajero de los dioses y era representado mediante unas sandalias con alas. El águila, en la mitología nativa
-        americana, es quien hace llegar al cielo las plegarias.\n<b>Color:</b> amarillo\n<b>Tipo de energía:</b> masculino
+        americana, es quien hace llegar al cielo las plegarias.\n
+    </string>
+    <string name="aire_detalle"><b>Color:</b> amarillo\n<b>Tipo de energía:</b> masculino
         proyectiva\n<b>Estación:</b> primavera\n<b>Signos astrológicos:</b> Libra-Géminis-Acuario\n<b>Plantas:</b> árboles
-        y aromáticas\n<b>Sentido:</b> olfato y oido\n<b>Punto cardinal:</b> Este</string>
-    <string name="agua_titulo">Agua</string>
-    <string name="agua">Calma y tranquiliza.\nNos lleva a un estado de relajación, pues permite sincronizarnos y
+        y aromáticas\n<b>Sentido:</b> olfato y oido\n<b>Punto cardinal:</b> Este\n</string>
+
+    <string name="agua">Nos lleva a un estado de relajación, pues permite sincronizarnos y
         reequilibrarnos, nos sintoniza con la partícula original de vida, realizando un reseteo en nuestro ser.
         “El agua es la fuerza motriz de toda la naturaleza.” Leonardo da Vinci. El agua es un conductor, un transmisor y un
-        conector con la fuente divina.\n<b>Color:</b> amarillo\n<b>Tipo de energía:</b> masculino proyectiva\n<b>Estación:</b>
+        conector con la fuente divina.\n</string>
+    <string name="agua_detalle"><b>Color:</b> amarillo\n<b>Tipo de energía:</b> masculino proyectiva\n<b>Estación:</b>
         primavera\n<b>Signos astrológicos:</b> Libra-Géminis-Acuario\n<b>Sentido:</b> olfato y oido\n<b>Punto cardinal:</b>
-        Oeste</string>
-    <string name="fuego_titulo">Fuego</string>
+        Oeste\n</string>
+
     <string name="fuego">Elemento vital suele asociarse al calor, al movimiento y a la energía.\nPor analogía, la familia vive
         alrededor del fuego del afecto, del cariño y del amor.\nPersonas nacidas bajo la influencia de este elemento son
         personas divertidas y apasionadas, llenas de vitalidad, pero que al contrario pueden llenarse de sentimientos que
         lastiman como el odio, resentimiento, ira.\nLas plantas que se asocian al elemento tienen la peculiaridad de generar,
         sobre el ser humano que las ingiere, efectos a los tres niveles y de manera simultánea: físico, psíquico-afectivo y
         espiritual.\nPor lo que se identifica a todas las plantas espinosas, picantes, alucinógenas, y algunas medicinales
-        con este elemento que refiere poder y ayuda a nuestro cuerpo en sanación y recuperación.\n<b>Color:</b> Amarillo,
+        con este elemento que refiere poder y ayuda a nuestro cuerpo en sanación y recuperación.\n</string>
+    <string name="fuego_detalle"><b>Color:</b> Amarillo,
         Rojo\n<b>Estación:</b> Otoño\n<b>Signos astrológicos:</b> Aries, Leo, Sagitario\n<b>Sentido:</b>
-        gusto\n<b>Punto cardinal:</b> Norte</string>
-    <string name="tierra_titulo">Tierra</string>
+        gusto\n<b>Punto cardinal:</b> Norte\n</string>
+
     <string name="tierra">La tierra se relaciona con protección, empoderamiento, regeneración y nutrición.\nLa tierra regula
         todos los hechizos y rituales en general, pues cualquier ritual se realiza para que una manifestación se realiza.
         En particular  su magia está relacionada con los negocios, el dinero, el empleo, la fertilidad, la prosperidad,
@@ -82,45 +86,180 @@
         necesita estar en contacto con los sentidos físicos y la realidad material y prefieren confiar más en sus sensaciones
         y razón que en inspiraciones.\nLos signos de tierra son compatibles con los signos de Agua por la cualidad fría e
         incompatibles con el Fuego y el Aire con quienes son más recelosos y reservados.\nHierbas y plantas: alfalfa, algodón,
-        artemisa, avena, cebada, centeno, helecho, maíz, membrillo, pachulí, trigo y verbena.\n<b>Color:</b> verde o
+        artemisa, avena, cebada, centeno, helecho, maíz, membrillo, pachulí, trigo y verbena.\n</string>
+    <string name="tierra_detalle"><b>Color:</b> verde o
         negro\n<b>Tipo de energía:</b> femenino receptiva\n<b>Estación:</b> Invierno\n<b>Signos astrológicos:</b> Capricornio,
         Tauro, Virgos\n<b>Arboles sagrados:</b> fresno, olmo, ciprés, madreselva y espino\n<b>Sentido:</b> oído, tacto
-        y olfato\n<b>Punto cardinal:</b> Norte</string>
+        y olfato\n<b>Punto cardinal:</b> Norte\n</string>
     <string name="comida_titulo">SABIAS\nQUE LAS\nCOMUNIDADES ANDINAS</string>
     <string name="detalle_comida">Asentadas en Guaranda basaban su\ngastronomía en tres alientos fundamentales\n
         siendo recetas heredadas de antepasados\n Incas y de las cuales nacieron platillos que\n actualmente están en
         peligro de desaparecer</string>
     <string name="title_activity_maps">Map</string>
-    <string name="raton_de_paramo"><b>Neomicroxus latebricola\n</b> Endémico de Ecuador, es un animal solitario. En la antigüedad se creía que
+    <string name="raton_de_paramo"><b>Neomicroxus latebricola\n\n</b>Endémico de Ecuador, es un animal solitario. En la antigüedad se creía que
         transportaba las almas de los humanos que habían pasado de la vida física a la espiritual, era la conexión entre la tierra y el
         inframundo.</string>
-    <string name="serpiente"><b>Macroprotodon cucullatus\n</b> Realiza sus actividades de caza en el día o en la noche. Era relacionada
+    <string name="serpiente"><b>Macroprotodon cucullatus\n\n</b> Realiza sus actividades de caza en el día o en la noche. Era relacionada
         con el mundo de las sombras ya que desaparecía en el frío y aparecía en el calor. Para los Incas representaba lo infinito; cuando un
         humano abandonaba la vida terrenal se unía a la espiritual en forma de serpiente.</string>
-    <string name="lagartija"><b>Lacertilia\n</b> Representa la renovación y el renacimiento ya que si llega a perder su cola, la puede
+    <string name="lagartija"><b>Lacertilia\n\n</b>Representa la renovación y el renacimiento ya que si llega a perder su cola, la puede
         regenerar. Este animal era secado y guardado en grandes depósitos y se destinaba como tributo al Inca.</string>
-    <string name="zorrillo"><b>Mephitidae\n</b> Antiguamente se creía que si al encontrarse con este animal la persona puede poseer
+    <string name="zorrillo"><b>Mephitidae\n\n</b> Antiguamente se creía que si al encontrarse con este animal la persona puede poseer
         coraje y la fuerza de voluntad para levantarse ante injusticias y hacer lo correcto en algo que está mal. Su principal rasgo
         característico es el fuerte y fétido olor que segregan sus glándulas anales. Este olor es emitido cuando la mofeta se siente
         amenazada. Viven en madrigueras que son cavadas por las hembras y durante el invierno, pasan un período de letargo, el cual
         no llega a ser una hibernación completa.A veces comparten madrigueras cavadas por otras especies como zorros y mapaches.</string>
-    <string name="vicuna"><b>Vicugna\n</b> Los textiles de vicuña se reservaban para la realeza inca. Tiene la fibra animal más fina del
+    <string name="vicuna"><b>Vicugna\n\n</b> Los textiles de vicuña se reservaban para la realeza inca. Tiene la fibra animal más fina del
         mundo, y por tanto, la más cara del mercado. Para hacerse una idea de la delicadeza del producto, basta citar que el grosor de un
         cabello humano equivale a seis de sus pelos. Conocidas como las damitas del Chimborazo ya que solo pisan con la parte delantera
         de sus patitas.</string>
-    <string name="chucuri"><b>Mustela frenata\n</b> Estos animales tienen un vínculo simbólico con el inframundo. Su agudo sentido del olfato
+    <string name="chucuri"><b>Mustela frenata\n\n</b> Estos animales tienen un vínculo simbólico con el inframundo. Su agudo sentido del olfato
         y su capacidad de ver en la oscuridad es lo que los vincula a los secretos de la oscuridad y la creación.</string>
-    <string name="cusumbo"><b>Potos flavus\n</b> son animales muy inteligentes. Están estrechamente conectados con el reino vegetal. invocado
+    <string name="cusumbo"><b>Potos flavus\n\n</b> son animales muy inteligentes. Están estrechamente conectados con el reino vegetal. invocado
         como guìa espiritual  en momentos de fertilidad, para ser gentil, tener fe en lugares desconocidos y conertarse al reino vegetal.</string>
-    <string name="guanta"><b>Cuniculus paca\n</b> Animal casi extinto. Su carne tenía beneficios que atribuyen a la curación de enfermedades
+    <string name="guanta"><b>Cuniculus paca\n\n</b> Animal casi extinto. Su carne tenía beneficios que atribuyen a la curación de enfermedades
         catastróficas por lo que se ha convertido en un animal amenazado por la caza indiscriminada, consumían por que su carne no contiene
         tanta grasa y su alimentación se basaba en frutas.</string>
-    <string name="mirlo"><b>Turdus Merula\n</b> Los chamanes creen que cuando aparece un mirlo esta urgiéndonos a seguir un camino espiritual
+    <string name="mirlo"><b>Turdus Merula\n\n</b> Los chamanes creen que cuando aparece un mirlo esta urgiéndonos a seguir un camino espiritual
         o a volvernos más conscientes.</string>
-    <string name="gallo_de_la_pena"><b>Rupicola peruvianus\n</b> Anidan en empinadas peñas, usualmente sobre ríos, escondiendo lo más posible,
+    <string name="gallo_de_la_pena"><b>Rupicola peruvianus\n\n</b> Anidan en empinadas peñas, usualmente sobre ríos, escondiendo lo más posible,
         entre huecos, rocas y cuevas, sus nidos de lodo y saliva.</string>
-    <string name="curiquingues"><b>Phalcoboenus carunculatus\n</b> ave mítica que auguraba la buena cosecha, al ir por los aires, se comunicaban
+    <string name="curiquingues"><b>Phalcoboenus carunculatus\n\n</b> ave mítica que auguraba la buena cosecha, al ir por los aires, se comunicaban
         con los astros y los dioses. “Eran las mensajeras sagradas entre la tierra y el cielo. Eran símbolo de pureza espiritual, dignidad
         y poder”</string>
-    <string name="gavilan"><b>Accipiter nisus\n</b> Atributo de los dioses solares, simboliza los cielos, el poder, la realeza y la sabiduría.</string>
+    <string name="gavilan"><b>Accipiter nisus\n\n</b> Atributo de los dioses solares, simboliza los cielos, el poder, la realeza y la sabiduría.</string>
+    <string name="cuarzo_cristal"><b>El Maestro de los Cristales\n</b>El cuarzo es una piedra que se encuentra en todo el mundo,
+contiene todos los colores y opera a niveles multidimensionales del
+ser. Es un poderoso sanador y amplificador de energía que genera
+electromagnetismo. Este cristal absorbe, almacena, libera y regula
+la energía. Actúa como un poderoso limpiador del alma; y también conecta la dimensión
+física con la mente.
+Trabaja a nivel vibratorio, sintonizando con la necesidad específica de la persona y llevando
+la energía al estado lo más perfecto posible.
+Armoniza todos los <b>Chakras</b>  y alinea el aura.</string>
+    <string name="amatista"><b>Amor a lo divino\n</b>
+Absolutamente espiritual. Esta piedra, que se encuentra en todo el
+mundo, llena de conciencia para compartir y está lista para dar consuelo
+y apoyo como lo haría la mejor de las madres. La amatista demuestra que
+en la vida no existe el desamparo. Ella puede despertar la memoria de
+nuestro verdadero ser.
+Cuando entras en contacto con ella, te despierta una chispa interior de luz, ya que ésta es su
+esencia.
+        Armoniza el <b> Tercer Ojo y Corona</b>.</string>
+    <string name="citrino"><b>Energizante\n</b>
+Es un poderoso limpiador y regenerador que posee el poder del sol.
+Siendo una piedra muy benéfica, energizante y creativa que
+absorbe, transmuta y aterriza las energías negativas, protegiendo el
+ambiente.
+Esta piedra se origina en Brasil, Rusia, Francia, entre otros sitios
+del mundo. Está indicada para traer abundancia; anima a compartir lo que uno tiene e imparte
+alegría a todos los que la contemplan. Favorece la calma interna y ayuda a trabajar desde la
+energía positiva.
+En cuanto a los Chakras, actúa como movilizador de las energías bloqueadas en el <b>Plexo
+        Solar</b>.</string>
+    <string name="malaquita">
+        Esta piedra es una poderosa limpiadora del cuerpo emocional, que
+libera los traumas infantiles y de vidas pasadas. Ella muestra aquello
+que bloquea el propio crecimiento espiritual, sacando a la superficie
+sentimientos profundos y causas psicosomáticas, rompiendo lazos
+indeseados, y enseñándote a responsabilizarte por tus acciones,
+pensamientos y sentimientos.
+Siendo una importante piedra protectora, la malaquita absorbe la energía negativa y los
+contaminantes del cuerpo y del medio ambiente.
+        Armoniza el <b>Chakra corazón, Plexo Solar, Base y Sacro</b>.
+    </string>
+    <string name="cuarzo_ahumado">El cuarzo ahumado es una piedra originaria de todo el mundo, que posee
+un fuerte vínculo con la tierra. Alivia el dolor y es una gran ayuda
+contra el estrés.
+Ayuda a aceptar el cuerpo físico y la naturaleza sexual, potencia la
+        virilidad y limpia el <b>Chakra Base</b> para que la pasión pueda fluir de
+manera natural.
+Ayuda a superar momentos difíciles, fortaleciendo la resolución de problemas.</string>
+    <string name="cuarzo_rosado">
+        <b>Amor incondicional\n</b>
+Es el arquetipo del amor absoluto y emana el amor del Universo sobre
+nosotros y sobre todas las cosas. El cuarzo rosa afirma que ni el
+abandono ni el desamparo existen. Que no estamos solos y está aquí
+para brindarnos el amor que nos hace falta y ayudarnos a descubrirlo y
+vibrarlo dentro nuestro. Nos lleva a amarnos a nosotros mismos, a sentir la esencia del amor.
+Este cristal tiene el poder de sanar cualquier herida, cualquier dolor, cualquier pena; ya que
+eleva la conciencia del que sufre para ayudarlo a entender por qué vivió eso.
+        Armoniza el <b>Chakra Corazón</b>.
+</string>
+    <string name="rodocrosita">
+    <b>Amor del alma\n</b>
+Representa el amor desinteresado y la compasión, e integra las
+energías materiales y espirituales. Esta piedra de origen
+argentino es excelente para el corazón y las relaciones. Atrae la
+pareja del alma y enseña al corazón a asimilar sentimientos
+dolorosos. Insiste en que afrontes la verdad respecto a tí mismo
+con conciencia amorosa.
+    Armoniza el <b>Chakra Corazón</b> y limpia los <b>Chakras del Plexo Solar y Base</b>.
+</string>
+    <string name="turmalina_negra">
+    <b>Purificación\n</b>
+Purifica y transforma la energía densa en vibración más ligera;
+aterriza la energía espiritual, equilibra los Chakras, meridianos y
+cuerpos áuricos y forma un escudo protector. Es una poderosa
+sanadora mental que equilibra los hemisferios del cerebro y
+transmuta los patrones de pensamiento negativo, ayudando a
+comprenderse y comprender a los
+    Armoniza el <b>Chakra Tierra</b> y protege todos los demás.
+</string>
+    <string name="lapislazuli">
+        <b>Piedra metafísica por excelencia\n</b>
+Es una piedra de alta vibración. clave para la realización espiritual. Estimula el poder
+personal y posee una enorme serenidad. Es protectora y resalta el poder de la palabra hablada.
+Armoniza cuerpo, emociones, mente y espíritu, aporta un profundo autoconocimiento y
+promueve la curación celular multidimensional. Además, es una piedra que vincula en el
+amor y la amistad, disolviendo las tendencias a las ataduras emocionales y a la martitización.
+Esta piedra, de origen chileno, enseña el valor de la escucha activa y ayuda a confrontar la
+verdad, donde quiera que la halles y a aceptar su enseñanza.
+Puede invertir las enfermedades causadas por la falta de expresión, liberando las dificultades
+de la garganta causadas por la ira reprimida.
+        Armoniza el <b>Chakra Garganta, Tercer Ojo y Corona</b>.
+    </string>
+    <string name="amazonita">
+        <b>Favorece la autodeterminación\n</b>
+Combina el intelecto con la intuición, permitiéndote llegar a tus propias
+conclusiones y favoreciendo la autodeterminación. Alivia la pena del
+cuerpo emocional, generando equilibrio emocional y facilitando la
+expresión constructiva de lo que antes quedó sin expresar. Ayuda a
+mantener la salud óptima.
+        Armoniza <b>Chakra Plexo Solar y Corazón.</b> Conecta el Corazón Superior con la Garganta.
+    </string>
+    <string name="jaspe_rojo">
+    <b>Beneficioso para la libido\n</b>
+Piedra de fuertes vibraciones energéticas, beneficiosas para los que
+padecen de timidez y falta de decisión. Se utiliza desde la antigüedad
+como afrodisíaco y estabilizador amoroso. Siempre fue considerada la
+piedra de los sentimientos intensos, la pasión y las grandes emociones.
+Se indica en caso de enfermedades hepáticas, beneficiosa para la libido, sangre, órganos
+sexuales, y para el equilibrio del contenido mineral del cuerpo.
+    Armoniza el <b>Chakra Base y Sacro</b>.
+</string>
+    <string name="labradorita">
+        Es una piedra de transformación, ayuda a disipar los miedos e
+inseguridades y los residuos psíquicos de anteriores decepciones,
+fortaleciendo la confianza en el Universo. Retira las proyecciones externas, y permite que el
+análisis y la racionalidad equilibren la visión interna. Es una compañera útil durante los
+cambios, que imparte fuerza y perseverancia.
+        Se relaciona con el <b>Chakra Tercer Ojo y Corona</b>.
+Cuando tengas tu cristal, entra en tu centro (como en una meditación). Pídele a la energía de
+la Madre Tierra, al Universo y a tu Alma que bendiga el cristal, que lo llene de su luz
+original. Luego, ábrete a su energía y deja que armonice cada célula de tu cuerpo y da las
+gracias por su servicio, dale las gracias porque llegó a tí.
+
+    </string>
+    <string name="paramo_title"><b>Páramo\n</b>
+    </string>
+    <string name="paramo_detalle">Por estar cerca del Volcán Chimborazo el clima es muy frío. Varía desde los páramos fríos,
+con temperaturas desde los 4ºC hasta los 7ºC.\n\n<b>Precipitaciones:</b> 500 a 1.200mm\n<b>Sectores:</b> Zonas noreste de Guaranda, San Lorenzo, San Simón, Salinas y Simiatug
+    </string>
+    <string name="subtropico_title"><b>Subtrópico\n</b></string>
+    <string name="subtropico_detalle">
+    Clima subtropical cálido, entre 18°C y 24°C\n\n<b>Precipitaciones:</b> 750 a 1.750mm\n<b>Sectores:</b> Centro oeste de San Lorenzo, San Simón, Santa Fe, Julio Moreno, Guaranda,
+Salinas y Simiatug, este de Facundo Vela.
+    </string>
+
 </resources>

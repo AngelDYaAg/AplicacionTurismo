@@ -54,4 +54,8 @@ class bienvenida_activity : AppCompatActivity() {
         val intent = Intent(this,scanner_activity::class.java);
         startActivity(intent);
     }
+    fun onclick_cosmo (view: View){
+        val intent = Intent(this,cosmovision_andina::class.java);
+        startActivity(intent);
+    }
 }

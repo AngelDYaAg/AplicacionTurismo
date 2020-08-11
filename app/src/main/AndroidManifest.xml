@@ -21,7 +21,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".informacion_fauna_activity"></activity>
+        <activity android:name=".paramo_subtropico"></activity>
+        <activity android:name=".detalleprin" />
+        <activity android:name=".principios_andinos" />
+        <activity android:name=".cosmovision_andina" />
+        <activity android:name=".descripcion_minerales" />
+        <activity android:name=".submenu_minerales" />
+        <activity android:name=".informacion_fauna_activity" />
         <activity android:name=".submenu_fauna_activity" />
         <activity android:name=".scanner_activity" />
         <!--

@@ -14,33 +14,38 @@ class elementos_activity : AppCompatActivity() {
         setContentView(R.layout.activity_elementos_activity)
 
         val opcionElementos: Int = intent.getIntExtra("optionElemento",1)
-        val textViewTitulo: TextView = findViewById(R.id.textView3)
         val textViewDescripcion: TextView = findViewById(R.id.textView4)
         textViewDescripcion.setMovementMethod(ScrollingMovementMethod())
         val imageViewElemento: ImageView = findViewById(R.id.imageView24)
         val imageViewColorElemento: ImageView = findViewById(R.id.imageView23)
+        val airedetalle: TextView = findViewById(R.id.textView5)
+        airedetalle.setMovementMethod(ScrollingMovementMethod())
         if(opcionElementos==1){
-            textViewTitulo.text = getString(R.string.aire_titulo)
+           // textViewTitulo.text = getString(R.string.aire_titulo)
             textViewDescripcion.text = getText(R.string.aire)
-            imageViewElemento.setImageResource(R.drawable.aire)
+            airedetalle.text = getText(R.string.aire_detalle)
+            imageViewElemento.setImageResource(R.drawable.flora_11)
             imageViewColorElemento.setImageResource(android.R.color.darker_gray)
         }
         if(opcionElementos==2){
-            textViewTitulo.text = getString(R.string.agua_titulo)
+           // textViewTitulo.text = getString(R.string.agua_titulo)
             textViewDescripcion.text = getText(R.string.agua)
-            imageViewElemento.setImageResource(R.drawable.agua)
+            airedetalle.text = getText(R.string.agua_detalle)
+            imageViewElemento.setImageResource(R.drawable.flora_09)
             imageViewColorElemento.setImageResource(android.R.color.holo_blue_light)
         }
         if(opcionElementos==3){
-            textViewTitulo.text = getString(R.string.fuego_titulo)
+           // textViewTitulo.text = getString(R.string.fuego_titulo)
             textViewDescripcion.text = getText(R.string.fuego)
-            imageViewElemento.setImageResource(R.drawable.fuego)
+            airedetalle.text = getText(R.string.fuego_detalle)
+            imageViewElemento.setImageResource(R.drawable.flora_02)
             imageViewColorElemento.setImageResource(android.R.color.holo_orange_light)
         }
         if(opcionElementos==4){
-            textViewTitulo.text = getString(R.string.tierra_titulo)
+            //textViewTitulo.text = getString(R.string.tierra_titulo)
             textViewDescripcion.text = getText(R.string.tierra)
-            imageViewElemento.setImageResource(R.drawable.tierra)
+            airedetalle.text = getText(R.string.tierra_detalle)
+            imageViewElemento.setImageResource(R.drawable.flora_10)
             imageViewColorElemento.setImageResource(android.R.color.holo_green_dark)
         }
     }

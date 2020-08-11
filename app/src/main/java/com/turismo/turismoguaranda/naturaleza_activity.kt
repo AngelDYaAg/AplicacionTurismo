@@ -62,4 +62,15 @@ class naturaleza_activity : AppCompatActivity() {
         intent.putExtra("optionElemento",4)
         startActivity(intent)
     }
+    fun onclick_paramo (view: View){
+        val intent = Intent(this,paramo_subtropico::class.java)
+        intent.putExtra("tipo",1)
+        startActivity(intent)
+    }
+    fun onclick_subtropico (view: View){
+        val intent = Intent(this,paramo_subtropico::class.java)
+        intent.putExtra("tipo",2)
+        startActivity(intent)
+    }
+
 }

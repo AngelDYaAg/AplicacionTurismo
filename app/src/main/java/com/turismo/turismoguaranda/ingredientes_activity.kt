@@ -30,5 +30,6 @@ class ingredientes_activity : AppCompatActivity() {
         if(opcionElementoingredientes==11){
             imageViewIngredientes.setImageResource(R.drawable.ingr__papa)
         }
+
     }
 }
