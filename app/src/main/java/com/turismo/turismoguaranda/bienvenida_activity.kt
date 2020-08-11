@@ -45,14 +45,9 @@ class bienvenida_activity : AppCompatActivity() {
     }
 
     fun onclick_ubicacion (view: View){
-        val gmmIntentUri = Uri.parse("google.streetview:cbll=-1.588313,-79.0068564")
+        val gmmIntentUri = Uri.parse("https://www.google.com.ec/maps/place/Guaranda/@-1.5908848,-79.0178488,14z/data=!3m1!4b1!4m5!3m4!1s0x91d31633414f2155:0x7ff4699820ed74ad!8m2!3d-1.5911691!4d-78.9990379")
         val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-        mapIntent.setPackage("com.google.android.apps.maps")
-        mapIntent.resolveActivity(packageManager)?.let {
-            startActivity(mapIntent)
-        }
-        //val intent = Intent(this,MapsActivity::class.java);
-        //startActivity(intent);
+        startActivity(mapIntent)
     }
 
     fun onclick_scannerQR (view: View){

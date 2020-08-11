@@ -1,96 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.turismo.turismoguaranda">
+package="com.turismo.turismoguaranda">
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+<uses-permission android:name="android.permission.CAMERA" />
+
+<uses-feature
+    android:glEsVersion="0x00020000"
+    android:required="true" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+
     <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the "MyLocation" functionality.
+         The API key for Google Maps-based APIs is defined as a string resource.
+         (See the file "res/values/google_maps_api.xml").
+         Note that the API key is linked to the encryption key used to sign the APK.
+         You need a different API key for each encryption key, including the release key that is used to
+         sign the APK for publishing.
+         You can define the keys for the debug and release targets in src/debug/ and src/release/.
     -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="android.permission.CAMERA" />
+    <!--<meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/google_maps_key" />-->
 
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
+    <activity android:name=".lugares_turisticos"></activity>
+    <activity android:name=".menu_lugares_turisticos" />
+    <activity android:name=".paramo_subtropico" />
+    <activity android:name=".detalleprin" />
+    <activity android:name=".principios_andinos" />
+    <activity android:name=".cosmovision_andina" />
+    <activity android:name=".descripcion_minerales" />
+    <activity android:name=".submenu_minerales" />
+    <activity android:name=".informacion_fauna_activity" />
+    <activity android:name=".submenu_fauna_activity" />
+    <activity android:name=".scanner_activity" />
+    <activity android:name=".menu_fauna_activity" />
+    <activity android:name=".menu_naturaleza_activity" />
+    <activity android:name=".historia_activity" />
+    <activity android:name=".servicios_activity" />
+    <activity android:name=".hotel_inicio_activity" />
+    <activity android:name=".hosteria_activity" />
+    <activity android:name=".valor_nutricional_activity" />
+    <activity android:name=".ingredientes_activity" />
+    <activity android:name=".fritada_de_llama" />
+    <activity android:name=".proteina_activity" />
+    <activity android:name=".elementos_activity" />
+    <activity android:name=".flora_activity" />
+    <activity android:name=".naturaleza_activity" />
+    <activity android:name=".visor_activity" />
+    <activity android:name=".comida_activity" />
+    <activity android:name=".galeria_activity" />
+    <activity
+        android:name=".bienvenida_activity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".MainActivity"
+        android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".lugares_turisticos"></activity>
-        <activity android:name=".menu_lugares_turisticos" />
-        <activity android:name=".paramo_subtropico" />
-        <activity android:name=".detalleprin" />
-        <activity android:name=".principios_andinos" />
-        <activity android:name=".cosmovision_andina" />
-        <activity android:name=".descripcion_minerales" />
-        <activity android:name=".submenu_minerales" />
-        <activity android:name=".informacion_fauna_activity" />
-        <activity android:name=".submenu_fauna_activity" />
-        <activity android:name=".scanner_activity" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
-        <activity android:name=".streetview_activity" />
-        <activity android:name=".menu_fauna_activity" />
-        <activity android:name=".menu_naturaleza_activity" />
-        <activity android:name=".historia_activity" />
-        <activity android:name=".servicios_activity" />
-        <activity android:name=".hotel_inicio_activity" />
-        <activity android:name=".hosteria_activity" />
-        <activity android:name=".papa_china_activity" />
-        <activity android:name=".dulce_oca_activity" />
-        <activity android:name=".papa_activity" />
-        <activity android:name=".chicha_activity" />
-        <activity android:name=".maiz_activity" />
-        <activity android:name=".chiguiles_activity" />
-        <activity android:name=".sanco_activity" />
-        <activity android:name=".valor_nutricional_activity" />
-        <activity android:name=".ingredientes_activity" />
-        <activity android:name=".fritada_de_llama" />
-        <activity android:name=".proteina_activity" />
-        <activity android:name=".elementos_activity" />
-        <activity android:name=".flora_activity" />
-        <activity android:name=".naturaleza_activity" />
-        <activity android:name=".visor_activity" />
-        <activity android:name=".comida_activity" />
-        <activity android:name=".galeria_activity" />
-        <activity
-            android:name=".bienvenida_activity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-    </application>
+    <uses-library
+        android:name="org.apache.http.legacy"
+        android:required="false" />
+</application>
 
 </manifest>

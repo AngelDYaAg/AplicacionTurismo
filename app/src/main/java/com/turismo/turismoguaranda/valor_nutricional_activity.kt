@@ -9,29 +9,25 @@ class valor_nutricional_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_valor_nutricional_activity)
-        val opcionvalorNutricional: Int = intent.getIntExtra("optionElemento",2)
+        val clase: Int = intent.getIntExtra("clase",1)
+        val comida: Int = intent.getIntExtra("comida",1)
         val imageViewvalorNutri: ImageView = findViewById(R.id.imageViewvalornutri)
-        if(opcionvalorNutricional==2){
+        if (clase==1&&comida==1){
             imageViewvalorNutri.setImageResource(R.drawable.info_nutri_fritada)
         }
-        if(opcionvalorNutricional==4){
-            print(opcionvalorNutricional)
+        if (clase==1&&comida==2){
             imageViewvalorNutri.setImageResource(R.drawable.info_nutri_sancocho)
         }
-        if(opcionvalorNutricional==6){
-            print(opcionvalorNutricional)
+        if (clase==2&&comida==1){
             imageViewvalorNutri.setImageResource(R.drawable.info_nutri_chingui)
         }
-        if(opcionvalorNutricional==8){
-            print(opcionvalorNutricional)
+        if (clase==2&&comida==2){
             imageViewvalorNutri.setImageResource(R.drawable.info_nutri_chicha)
         }
-        if(opcionvalorNutricional==10){
-            print(opcionvalorNutricional)
+        if (clase==3&&comida==1){
             imageViewvalorNutri.setImageResource(R.drawable.info_nutri_dulce_oca)
         }
-        if(opcionvalorNutricional==12){
-            print(opcionvalorNutricional)
+        if (clase==3&&comida==2){
             imageViewvalorNutri.setImageResource(R.drawable.info_nutri_papa_china)
         }
     }

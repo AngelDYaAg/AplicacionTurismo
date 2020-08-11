@@ -13,14 +13,17 @@ class comida_activity: AppCompatActivity() {
     }
     fun onclick_proteina (view: View){
         val intent = Intent(this,proteina_activity::class.java);
+        intent.putExtra("clase",1)
         startActivity(intent);
     }
     fun onclick_maiz (view: View){
-        val intent = Intent(this,maiz_activity::class.java);
+        val intent = Intent(this,proteina_activity::class.java);
+        intent.putExtra("clase",2)
         startActivity(intent);
     }
     fun onclick_papa(view: View){
-        val intent = Intent(this,papa_activity::class.java);
+        val intent = Intent(this,proteina_activity::class.java);
+        intent.putExtra("clase",3)
         startActivity(intent);
     }
 }

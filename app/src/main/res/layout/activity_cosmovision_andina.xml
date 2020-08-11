@@ -18,8 +18,9 @@
 
             <ImageView
                 android:id="@+id/imageViewp"
-                android:layout_width="412dp"
+                android:layout_width="wrap_content"
                 android:layout_height="730dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/cosmovision_pantalla_1" />

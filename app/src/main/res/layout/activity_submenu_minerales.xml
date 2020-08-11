@@ -17,14 +17,12 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="411dp"
+                android:layout_width="wrap_content"
                 android:layout_height="733dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
                 app:srcCompat="@drawable/pantalla_minerales" />
 
             <Button
@@ -65,11 +63,9 @@
                 android:layout_width="60dp"
                 android:layout_height="85dp"
                 android:layout_marginTop="24dp"
-                android:layout_marginEnd="56dp"
                 android:background="@drawable/mineral_jaspe_rojo"
                 android:onClick="onclick_ajaspe_rojo"
                 app:layout_constraintEnd_toStartOf="@+id/button_cuarzo12"
-                app:layout_constraintHorizontal_bias="0.966"
                 app:layout_constraintStart_toEndOf="@+id/button_cuarzo8"
                 app:layout_constraintTop_toBottomOf="@+id/button_cuarzo9" />
 

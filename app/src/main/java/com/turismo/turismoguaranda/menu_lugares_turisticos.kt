@@ -47,15 +47,9 @@ class menu_lugares_turisticos : AppCompatActivity() {
         startActivity(intent);
     }
 
-    fun onclick_santuario(view: View){
-        val intent = Intent(this,lugares_turisticos::class.java);
-        intent.putExtra("option",7)
-        startActivity(intent);
-    }
-
     fun onclick_plaza_carnaval(view: View){
         val intent = Intent(this,lugares_turisticos::class.java);
-        intent.putExtra("option",8)
+        intent.putExtra("option",7)
         startActivity(intent);
     }
 

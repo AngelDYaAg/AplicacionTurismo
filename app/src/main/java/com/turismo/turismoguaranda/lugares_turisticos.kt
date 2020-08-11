@@ -100,14 +100,6 @@ class lugares_turisticos : AppCompatActivity() {
             }
         }
         if (opcion==7){
-            val gmmIntentUri = Uri.parse("google.streetview:cbll=")
-            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-            mapIntent.setPackage("com.google.android.apps.maps")
-            mapIntent.resolveActivity(packageManager)?.let {
-                startActivity(mapIntent)
-            }
-        }
-        if (opcion==8){
             val gmmIntentUri = Uri.parse("google.streetview:cbll=-1.5971264,-79.0025612")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
