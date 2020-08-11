@@ -262,4 +262,45 @@ con temperaturas desde los 4ºC hasta los 7ºC.\n\n<b>Precipitaciones:</b> 500 a
 Salinas y Simiatug, este de Facundo Vela.
     </string>
 
+    <string name="indio_guaranga">
+        Ubicada en cruz loma al norte de la ciudad encontramos la estatua del legendario Indio Guaranga, en donde también se ubica su museo,
+        el cual guarda en su interior figuras representativas de algunas culturas que habitaron la ciudad y más. Adicional encontramos una
+        galería de arte con pinturas de autores propios de la zona.\n<b>Horario de Atención:</b> Miércoles a Domingo: 08h00 a 12h00 / 14h00 a 18h00.
+    </string>
+    <string name="plaza_del_carnaval">
+        La plaza principal de la ciudad.Está destinada para todo evento cultural que se realice en la ciudad. Construida en honor al Monumento Cacique
+        Guaranga; también representa la unión entre el hombre en la tierra con lo superior en el sol, como una escalera hacia arriba.\nUbicada al sur
+        de la ciudad, es un lugar que alberga fiestas cívicas, eventos artísticos y culturales. Dentro de la primera etapa que fue construida la plaza
+        del carnaval tienes las siguientes áreas:\n<b>Plaza Chacana.-</b> a “chacana” o cruz andina es un símbolo recurrente en las culturas
+        originarias de los Andes. Su forma es la de una cruz cuadrada y escalonada, con doce puntas.\n<b>Plaza del Sol.-</b> Plaza de la Luna : en
+        honor al respeto de nuestras culturas al astro rey y a la luna que rige sobre varios aspectos importantes de la vida.\n<b>Plazoleta</b> en
+        honor al histórico Monumento Cacique Guaranga.\nReubicación y exaltación del Monumento al Héroe de Guerra Cabo Analuisa.\nEstructura de tarima
+        permanente.\nPlataformas para desarrollo de eventos culturales y cívicos.\n
+    </string>
+    <string name="la_guitarra">
+        En honor al patrón de los viajeros\nLos comerciantes brindaban una contribución monetaria cada que pasaban por este camino.\nEn la cima de la
+        colina se encuentra la edificación de una guitarra que es destinada al Museo del Carnaval, donde se puede observar las fiestas, comida, coplas
+        y trajes típicos de esta fecha.
+    </string>
+    <string name="laguna_las_cochas">
+        Esta ubicada a 10 Km. de la ciudad de Guaranda, al Oriente de Guanujo y con una temperatura de 14 grados este es un lugar turístico apto para
+        jugar, divertiste y pasar momento agradables entre familia y amigos este parque cuenta con canchas deportivas ,amplias áreas verdes ,juegos
+        donde los niños van a poder jugar y pasar muy bien.a demás encontramos un hermoso lago y una hermosa piscina en donde las personas van a poder
+        nadar
+    </string>
+    <string name="santuario">
+        pendiente
+    </string>
+    <string name="parque_central">
+        En la época Colonial esta plaza fue el centro del comercio de la ciudad, luego de varios años se planifica la construcción del parque y es así
+        que con la administración del alcalde Alfonso Durango se manda a construir la estatua de Simon Bolivar al gran maestro escultor Oswaldo
+        Guayasamín
+    </string>
+    <string name="municipio">
+        pendiente
+    </string>
+    <string name="colinas_7">
+        pendiente
+    </string>
+
 </resources>

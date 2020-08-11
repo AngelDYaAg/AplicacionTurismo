@@ -39,6 +39,11 @@ class bienvenida_activity : AppCompatActivity() {
         startActivity(intent);
     }
 
+    fun onclick_lugares_turisticos (view: View){
+        val intent = Intent(this,menu_lugares_turisticos::class.java);
+        startActivity(intent);
+    }
+
     fun onclick_ubicacion (view: View){
         val gmmIntentUri = Uri.parse("google.streetview:cbll=-1.588313,-79.0068564")
         val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)

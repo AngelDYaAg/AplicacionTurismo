@@ -21,7 +21,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".paramo_subtropico"></activity>
+        <activity android:name=".lugares_turisticos"></activity>
+        <activity android:name=".menu_lugares_turisticos" />
+        <activity android:name=".paramo_subtropico" />
         <activity android:name=".detalleprin" />
         <activity android:name=".principios_andinos" />
         <activity android:name=".cosmovision_andina" />

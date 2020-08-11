@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".menu_lugares_turisticos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="399dp"
+                android:layout_height="269dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/pantalla_lugares_turisticos" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_1_colinas"
+                android:onClick="onclick_siete_colinas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_2_indio"
+                android:onClick="onclick_indio_guaranga"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button48" />
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_3_parque"
+                android:onClick="onclick_parque_central"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button49" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_4_guitarra"
+                android:onClick="onclick_la_guitarra"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button50" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_5_cochas"
+                android:onClick="onclick_las_cochas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button51" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_6_gad"
+                android:onClick="onclick_gad_guaranda"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button52" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_7_santuario"
+                android:onClick="onclick_santuario"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button53" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="234dp"
+                android:layout_height="56dp"
+                android:background="@drawable/boton_8_plaza"
+                android:onClick="onclick_plaza_carnaval"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button54" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
