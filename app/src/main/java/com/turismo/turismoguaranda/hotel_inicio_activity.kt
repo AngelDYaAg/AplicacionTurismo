@@ -17,7 +17,7 @@ class hotel_inicio_activity : AppCompatActivity() {
             imageViewHotel.setImageResource(R.drawable.hosteria_angel_inicio)
         }
         if(opcion==2){
-            imageViewHotel.setImageResource(R.drawable.hosteria_colina_inicio)
+            imageViewHotel.setImageResource(R.drawable.hosteria_colina_inicio01)
         }
         if(opcion==3){
             imageViewHotel.setImageResource(R.drawable.hosteria_rustica_inicio)

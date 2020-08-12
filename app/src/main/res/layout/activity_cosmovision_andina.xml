@@ -23,16 +23,17 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/cosmovision_pantalla_1" />
+                app:srcCompat="@drawable/sub_menu_cosmovision01" />
 
             <Button
                 android:id="@+id/button41"
-                android:layout_width="225dp"
-                android:layout_height="226dp"
-                android:layout_marginTop="372dp"
+                android:layout_width="233dp"
+                android:layout_height="206dp"
+                android:layout_marginTop="396dp"
                 android:background="@drawable/boton_pantalla_1"
                 android:onClick="onclick_principios_andinos"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>

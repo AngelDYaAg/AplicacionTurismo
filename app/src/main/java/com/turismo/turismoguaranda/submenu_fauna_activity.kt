@@ -34,7 +34,7 @@ class submenu_fauna_activity : AppCompatActivity() {
             botonAnimal4.setBackgroundResource(R.drawable.terrestres_nombre_vicuna)
         }
         if(clase==3){
-            imageViewAnimalTexto.setImageResource(R.drawable.pantalla_rastreros)
+            imageViewAnimalTexto.setImageResource(R.drawable.pantalla_rastreros01)
             botonAnimal1.setBackgroundResource(R.drawable.rastreros_nombre_lagartija)
             botonAnimal2.setBackgroundResource(R.drawable.rastreros_nombre_raton)
             botonAnimal3.setBackgroundResource(R.drawable.rastreros_nombre_serpiente)

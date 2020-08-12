@@ -19,11 +19,10 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="0dp"
+                android:layout_width="387dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="32dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/rastreros_nombre_lagartija" />
@@ -38,8 +37,8 @@
                 android:text="@string/lagartija"
                 android:textColor="@android:color/white"
                 android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
                 app:layout_constraintTop_toBottomOf="@+id/imageView5" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

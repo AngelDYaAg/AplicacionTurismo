@@ -16,7 +16,7 @@ class proteina_activity : AppCompatActivity() {
             imageViewSubmenu.setImageResource(R.drawable.opciones_proteina)
         }
         if (clase==2){
-            imageViewSubmenu.setImageResource(R.drawable.submenu_maiz)
+            imageViewSubmenu.setImageResource(R.drawable.submenu_maiz01)
         }
         if (clase==3){
             imageViewSubmenu.setImageResource(R.drawable.submenu_papa)

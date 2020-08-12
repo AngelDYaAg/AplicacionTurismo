@@ -15,10 +15,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="730dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/pantalla_rastreros" />
+
             <Button
                 android:id="@+id/button40"
                 android:layout_width="187dp"
                 android:layout_height="163dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/rastreros_nombre_zorrillo"
                 android:onClick="onclick_animal_4"
@@ -31,12 +41,14 @@
                 android:id="@+id/button38"
                 android:layout_width="187dp"
                 android:layout_height="163dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="304dp"
                 android:background="@drawable/rastreros_nombre_raton"
                 android:onClick="onclick_animal_2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/button37"
-                app:layout_constraintTop_toTopOf="@+id/button37" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/button39"
@@ -62,14 +74,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="730dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/pantalla_rastreros" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

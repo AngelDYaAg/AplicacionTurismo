@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#986666"
     tools:context=".descripcion_minerales">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#000000"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="150dp">
 
@@ -21,9 +22,11 @@
 
             <ImageView
                 android:id="@+id/imageViewDescripcion"
-                android:layout_width="0dp"
-                android:layout_height="209dp"
-                android:layout_marginTop="52dp"
+                android:layout_width="369dp"
+                android:layout_height="212dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -31,18 +34,21 @@
 
             <TextView
                 android:id="@+id/textViewDescripcion"
-                android:layout_width="361dp"
-                android:layout_height="353dp"
+                android:layout_width="356dp"
+                android:layout_height="452dp"
 
 
-                android:layout_marginTop="52dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="serif"
                 android:gravity="center_horizontal"
+                android:scrollbars="vertical"
                 android:text="@string/cuarzo_cristal"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewDescripcion"
+                app:layout_constraintStart_toStartOf="@+id/imageViewDescripcion"
                 app:layout_constraintTop_toBottomOf="@+id/imageViewDescripcion" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

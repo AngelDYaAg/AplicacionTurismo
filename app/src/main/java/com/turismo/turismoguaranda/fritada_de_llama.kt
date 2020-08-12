@@ -21,7 +21,7 @@ class fritada_de_llama : AppCompatActivity() {
             imageViewComida.setImageResource(R.drawable.sancocho_de_campeche)
         }
         if (clase==2&&comida==1){
-            imageViewComida.setImageResource(R.drawable.chiguiles)
+            imageViewComida.setImageResource(R.drawable.chiguiles01)
         }
         if (clase==2&&comida==2){
             imageViewComida.setImageResource(R.drawable.chicha)

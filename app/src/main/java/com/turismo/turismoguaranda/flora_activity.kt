@@ -37,7 +37,7 @@ class flora_activity : AppCompatActivity() {
             imageViewPlanta.setImageResource(R.drawable.flora_05)
         }
         if(opcion==6){
-            imageViewPlanta.setImageResource(R.drawable.flora_06)
+            imageViewPlanta.setImageResource(R.drawable.flora_0601)
         }
     }
 }

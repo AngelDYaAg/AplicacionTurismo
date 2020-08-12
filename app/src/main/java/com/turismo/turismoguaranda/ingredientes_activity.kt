@@ -16,10 +16,10 @@ class ingredientes_activity : AppCompatActivity() {
             imageViewIngredientes.setImageResource(R.drawable.ingr__fritada_de_llama)
         }
         if (clase==1&&comida==2){
-            imageViewIngredientes.setImageResource(R.drawable.ingr__sancocho)
+            imageViewIngredientes.setImageResource(R.drawable.ingr__sancocho01)
         }
         if (clase==2&&comida==1){
-            imageViewIngredientes.setImageResource(R.drawable.ingr__chiguiles)
+            imageViewIngredientes.setImageResource(R.drawable.ingr__chiguiles01)
         }
         if (clase==2&&comida==2){
             imageViewIngredientes.setImageResource(R.drawable.ingr__chicha)
