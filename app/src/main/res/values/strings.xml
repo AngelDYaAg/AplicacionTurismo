@@ -56,15 +56,14 @@
         mensajero de los dioses y era representado mediante unas sandalias con alas. El águila, en la mitología nativa
         americana, es quien hace llegar al cielo las plegarias.\n
     </string>
-    <string name="aire_detalle"><b>Color:</b> amarillo\n<b>Tipo de energía:</b> masculino
-        proyectiva\n<b>Estación:</b> primavera\n<b>Signos astrológicos:</b> Libra-Géminis-Acuario\n<b>Plantas:</b> árboles
+    <string name="aire_detalle"><b>Color:</b> amarillo\n<b>Estación:</b> primavera\n<b>Signos astrológicos:</b> Libra-Géminis-Acuario\n<b>Plantas:</b> árboles
         y aromáticas\n<b>Sentido:</b> olfato y oido\n<b>Punto cardinal:</b> Este\n</string>
 
     <string name="agua">Nos lleva a un estado de relajación, pues permite sincronizarnos y
         reequilibrarnos, nos sintoniza con la partícula original de vida, realizando un reseteo en nuestro ser.
         “El agua es la fuerza motriz de toda la naturaleza.” Leonardo da Vinci. El agua es un conductor, un transmisor y un
         conector con la fuente divina.\n</string>
-    <string name="agua_detalle"><b>Color:</b> amarillo\n<b>Tipo de energía:</b> masculino proyectiva\n<b>Estación:</b>
+    <string name="agua_detalle"><b>Color:</b> amarillo\n<b>Estación:</b>
         primavera\n<b>Signos astrológicos:</b> Libra-Géminis-Acuario\n<b>Sentido:</b> olfato y oido\n<b>Punto cardinal:</b>
         Oeste\n</string>
 
@@ -88,7 +87,7 @@
         incompatibles con el Fuego y el Aire con quienes son más recelosos y reservados.\nHierbas y plantas: alfalfa, algodón,
         artemisa, avena, cebada, centeno, helecho, maíz, membrillo, pachulí, trigo y verbena.\n</string>
     <string name="tierra_detalle"><b>Color:</b> verde o
-        negro\n<b>Tipo de energía:</b> femenino receptiva\n<b>Estación:</b> Invierno\n<b>Signos astrológicos:</b> Capricornio,
+        negro\n<b>Estación:</b> Invierno\n<b>Signos astrológicos:</b> Capricornio,
         Tauro, Virgos\n<b>Arboles sagrados:</b> fresno, olmo, ciprés, madreselva y espino\n<b>Sentido:</b> oído, tacto
         y olfato\n<b>Punto cardinal:</b> Norte\n</string>
     <string name="comida_titulo">SABIAS\nQUE LAS\nCOMUNIDADES ANDINAS</string>
@@ -114,7 +113,7 @@
         de sus patitas.</string>
     <string name="chucuri"><b>Mustela frenata\n\n</b> Estos animales tienen un vínculo simbólico con el inframundo. Su agudo sentido del olfato
         y su capacidad de ver en la oscuridad es lo que los vincula a los secretos de la oscuridad y la creación.</string>
-    <string name="cusumbo"><b>Potos flavus\n\n</b> son animales muy inteligentes. Están estrechamente conectados con el reino vegetal. invocado
+    <string name="cusumbo"><b>Potos flavus\n\n</b> Son animales muy inteligentes. Están estrechamente conectados con el reino vegetal. invocado
         como guìa espiritual  en momentos de fertilidad, para ser gentil, tener fe en lugares desconocidos y conertarse al reino vegetal.</string>
     <string name="guanta"><b>Cuniculus paca\n\n</b> Animal casi extinto. Su carne tenía beneficios que atribuyen a la curación de enfermedades
         catastróficas por lo que se ha convertido en un animal amenazado por la caza indiscriminada, consumían por que su carne no contiene
@@ -300,16 +299,16 @@ Salinas y Simiatug, este de Facundo Vela.
         la cercanía y la camaradería es un plus que le da un encanto particular.
     </string>
     <string name="colinas_7">
-        <b>San Jacinto</b>\nEn honor al patrón de los viajeros. Los comerciantes brindaban una contribución monetaria cada vez que pasaban por este camino.
-        Desde su cima se puede observar las fiestas, comida, coplas y trajes típicos del famoso carnaval.\n\n<b>Loma de Guaranda</b>\nEn honor a la ciudad
-        de Guaranda. Es la colina principal, en la cima se encuentran instaladas antenas de transmisión telefónica y de televisión.\n\n<b>San Bartolo</b>\nEn
+        <b>1. San Jacinto</b>\nEn honor al patrón de los viajeros. Los comerciantes brindaban una contribución monetaria cada vez que pasaban por este camino.
+        Desde su cima se puede observar las fiestas, comida, coplas y trajes típicos del famoso carnaval.\n\n<b>2. Loma de Guaranda</b>\nEn honor a la ciudad
+        de Guaranda. Es la colina principal, en la cima se encuentran instaladas antenas de transmisión telefónica y de televisión.\n\n<b>3. San Bartolo</b>\nEn
         honor al santo San Bartolomé, quien fue apóstol de Jesús.Una de las colinas más grandes donde la cima es usada como un mirador natural. Se puede
-        observar plantas como el sacha, romerillo, capulí, entre otros; y algunos mirlos, colibríes y pájaros.\n\n<b>Cruz Loma</b>\nExistía una cruz de madera
+        observar plantas como el sacha, romerillo, capulí, entre otros; y algunos mirlos, colibríes y pájaros.\n\n<b>4. Cruz Loma</b>\nExistía una cruz de madera
         que fue destruida por un rayo. En esta colina se celebraba el miércoles de ceniza después del Carnaval de Guaranda. Aquí se encuentra el Museo y la
-        estatua “Indio Guaranga”.\n\n<b>Tililag</b>\nUn indígena hacía sonar una coraza cuando se acercaban enemigos, de ahí el sonido “Tilig”. Conocida
-        actualmente como el Peñón; llegar a la cima es difícil ya que el sendero se encuentra destruido.\n\n<b>Talalag</b>\nEra usada para la extracción
+        estatua “Indio Guaranga”.\n\n<b>5. Tililag</b>\nUn indígena hacía sonar una coraza cuando se acercaban enemigos, de ahí el sonido “Tilig”. Conocida
+        actualmente como el Peñón; llegar a la cima es difícil ya que el sendero se encuentra destruido.\n\n<b>6. Talalag</b>\nEra usada para la extracción
         de piedra por esta razón se destruyó gran parte de la colina. Se encuentran plantas de romerillo, mático, chilca; árboles de eucalipto y
-        capulí.\n\n<b>El Calvario</b>\nHace referencia al Monte Calvario donde murió Jesús.Desde aquí salía la procesión del domingo de ramos que
+        capulí.\n\n<b>7. El Calvario</b>\nHace referencia al Monte Calvario donde murió Jesús.Desde aquí salía la procesión del domingo de ramos que
         terminaba en la iglesia principal de la ciudad. Debido a la construcción de diferentes edificaciones ya no es posible divisar claramente la colina.
     </string>
 

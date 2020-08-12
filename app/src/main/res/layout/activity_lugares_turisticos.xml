@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="410dp"
-        android:layout_height="301dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="302dp"
-        android:layout_height="295dp"
+        android:layout_height="0dp"
         android:fontFamily="serif"
         android:gravity="center_horizontal"
         android:scrollbars="vertical"

@@ -18,8 +18,8 @@
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="279dp"
-        android:layout_height="0dp"
+        android:layout_width="280dp"
+        android:layout_height="246dp"
         android:layout_marginTop="8dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
@@ -27,7 +27,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/flora_11" />
+        app:srcCompat="@drawable/flora_02" />
 
     <TextView
         android:id="@+id/textView4"
