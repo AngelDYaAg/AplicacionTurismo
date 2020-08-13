@@ -36,10 +36,6 @@ class scanner_activity : AppCompatActivity(), ZXingScannerView.ResultHandler {
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
         builder.setTitle("resultado del scanner")
         builder.setMessage(rawResult.text)
-        //val alertDialog: AlertDialog = builder.create()
-        //alertDialog.show()
-
-        //mScannerView.resumeCameraPreview(this)
         val intentUri = Uri.parse(rawResult.text)
         val intent = Intent(Intent.ACTION_VIEW, intentUri)
         startActivity(intent)

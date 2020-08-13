@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TurismoGuaranda</string>
+    <string name="app_name">Guaranda Tour</string>
 
     <string name="title_activity_pantalla_inicial">pantalla_inicial</string>
     <string name="dummy_button">Dummy Button</string>
